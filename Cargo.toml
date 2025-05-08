@@ -1,10 +1,6 @@
 [workspace]
+resolver = "2"
 members = [
     "packages/*",
     "apps/*"
 ]
-
-[package]
-name = "dht"
-version = "0.0.0"
-edition = "2021"
